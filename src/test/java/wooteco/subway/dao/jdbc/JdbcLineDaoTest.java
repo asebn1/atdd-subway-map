@@ -25,7 +25,6 @@ class JdbcLineDaoTest {
     @BeforeEach
     void setUp() {
         lineDao = new JdbcLineDao(jdbcTemplate);
-
     }
 
     @Test
